@@ -23,10 +23,11 @@ Tecnologias usadas:
 
 1. Instalar Node JS, Yarn/Npm e Mysql;
 2. Criar uma database chamada 'opinions';
-3. Rodar yarn/npm migrate:do
-4. Rodar yarn/npm seed:do
-5. Rodar yarn/npm install;
-6. Rodar yarn/npm run dev.
+3. Alterar o arquivo .sample.env para .env;
+4. Rodar yarn/npm migrate:do
+5. Rodar yarn/npm seed:do
+6. Rodar yarn/npm install;
+7. Rodar yarn/npm run dev.
 
 ### Imagens
 
