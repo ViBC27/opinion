@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "baseUrl": ".",
+        "allowJs": true,
+        "checkJs": true,
+        "rootDir": "./",
+        "sourceMap": true,
+        "outDir": "./bin",
+        "target": "ESNEXT",
+        "module": "CommonJS",
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "types": ["node", "jest"],
+        "noImplicitReturns": true,
+        "noUnusedParameters": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "strictPropertyInitialization": false,
+        "forceConsistentCasingInFileNames": true,
+        "typeRoots": ["node_modules/@types/", "src/@types/"],
+        "paths": {
+            "@Root/*": ["./*"],
+            "@Source/*": ["src/*"],
+            "@Lib/*": ["src/lib/*"],
+            "@Dao/*": ["src/dao/*"],
+            "@Routes/*": ["src/routes/*"],
+            "@Database/*": ["src/database/*"],
+            "@Models/*": ["src/database/models/*"]
+        }
+    },
+    "exclude": ["node_modules/", ".vscode/", ".git/"]
+}
